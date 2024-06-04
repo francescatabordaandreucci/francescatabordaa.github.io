@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+		
+}
+h1 {
+	color: purple;
+}
+
+h2{
+	color:plum;
+}
+
+h3{
+	color:rebeccapurple;
+}
+body{
+	background: url("imagenes/fondo pagina web jb.jpg") 0 0 no-repeat fixed;
+	background-size: cover;
+}
+/* 3.contenedor */
+/* Estilos para el contenedor principal de la pagina */
+#wrap-main {
+	width: 650px;
+	min-height: 100vh;
+	background-color:gold;
+	padding: 20px;
+	margin: auto;
+}
+/* 4.Contenido */
+/* Estilos para el contenido principal de la pagina*/
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	color:darkorchid;
+	margin: 0 0 20px 0;
+	text-shadow: 2px 2px 6px rgba(0,0,0,0.8)
+}
+h2{
+	font-size: 30px;
+	text-align:center;
+	color: #CC99EF;
+	margin: 0 0 20px 0;
+	text-shadow: 2px 2px 6px rgba(0,0,0,0.8)
+}
+p{
+	margin: 20px 0;
+	color: black;
+	text-align: justify;
+	font-style: oblique;
+  	
+}
+ul, ol, h3,h4,a{
+	margin: 0;
+	color: #8321B4
+	font-family: "Roboto Mono", monospace;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	font-family: "Roboto Mono", monospace;
+	padding: 20px;
+	
+}
+hr{
+	border: 0;
+	background-color: blueviolet;
+	height: 1px;
+}
+img, .video-container video{
+	align-content:center;
+	width: 100%;
+	margin-top: 20px;
+}
+#Bibliografia {
+  	height: auto;
+	width: 600px;
+	display: block;
+	margin: 0 auto 20px;
+}
+#Musica {
+	height: auto;
+	width: 600px;
+	display: block;
+	margin: 0 auto 20px;
+}
+#Marca de ropa{
+	height: auto;
+	width: 600px;
+	display: block;
+	margin: 0 auto 20px;
+}
+#Giras{
+	height: auto;
+	width: 600px;
+	display: block;
+	margin: 0 auto 20px;
+}
+Audio{
+	width: 100%;
+}
+figcaption{
+	font-style: italic;
+	font-weight: lighter;
+	color: #9C9BE7;
+	margin: 0 auto 20px;
+}
+/*5.navegador y footer */
+/*estilos para la navegacion y el pie de pagina*/
+nav{
+	text-align:center;
+}
+nav a{
+	display: inline-block;
+	margin: 0 10px;
+	padding: 6px 5px;
+	background-color:plum;
+	text-decoration: none;
+	border-radius: spx;
+}
+footer{
+	background-color: blueviolet;
+	color: #000000;
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+	columns: 1;
+	font-style: oblique;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+{
+	color:blue;
+}
+a:hover{
+	color: blue
+}
